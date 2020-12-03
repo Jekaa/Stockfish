@@ -1,0 +1,131 @@
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "left": "8x",
+      "right": "8x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "RTSI • Индекс РТС",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 0
+        },
+        "paddings": {
+          "top": "10x"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "2x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "1 329",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 0
+            }
+          }
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Московская биржа 03.12.2020, 17:12:46 (МСК)",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 0
+        },
+        "paddings": {
+          "top": "10x",
+          "bottom": "8x"
+        }
+      },
+      {
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "➘ 0,45%",
+            "typeface": "body1",
+            "text_color": "warning"
+          },
+          "vertical_gravity": "bottom"
+        }
+      }
+    ]
+  },
+  "suggesions": {
+    "buttons": [
+      {
+        "title": "Индекс Мосбиржи",
+        "action": {
+          "text": "Индекс Мосбиржи",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Нефти и газа",
+        "action": {
+          "text": "Нефти и газа",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Электроэнергетики",
+        "action": {
+          "text": "Электроэнергетики",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Телекоммуникаций",
+        "action": {
+          "text": "Телекоммуникаций",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Металлов и добычи",
+        "action": {
+          "text": "Металлов и добычи",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Финансов",
+        "action": {
+          "text": "Финансов",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Потребительского сектора",
+        "action": {
+          "text": "Потребительского сектора",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Химии и нефтехимии",
+        "action": {
+          "text": "Химии и нефтехимии",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Транспорта",
+        "action": {
+          "text": "Транспорта",
+          "type": "text"
+        }
+      }
+    ]
+  }
+}
