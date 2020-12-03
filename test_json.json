@@ -33,6 +33,15 @@
               "max_lines": 0
             }
           }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "➘ 0,45%",
+            "typeface": "body1",
+            "text_color": "warning"
+          },
+          "vertical_gravity": "bottom"
         }
       },
       {
@@ -47,17 +56,7 @@
           "top": "10x",
           "bottom": "8x"
         }
-      },
-      {
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "➘ 0,45%",
-            "typeface": "body1",
-            "text_color": "warning"
-          },
-          "vertical_gravity": "bottom"
-        }
+      }
       }
     ]
   },
